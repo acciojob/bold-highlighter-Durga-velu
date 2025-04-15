@@ -2,7 +2,7 @@ function highlight() {
     //Write your code here
 let strongWords=document.querySelectorAll("strong")
 
-	strongWords.style.color="green"
+	strongWords.textContent.style.color="rgb(0,128,0)"
 
 }
 
