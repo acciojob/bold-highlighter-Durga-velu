@@ -1,6 +1,6 @@
 function highlight() {
     //Write your code here
-let strongWords=document.querySelectorAll("strong")
+let strongWords=document.getElementsByTagName("strong")
 
 	strongWords.textContent.style.color="rgb(0,128,0)"
 
